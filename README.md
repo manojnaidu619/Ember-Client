@@ -1,7 +1,7 @@
-# customer
+# Ember Client
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This Ember app(frontend) is connected To [this Rails API(backend)](https://github.com/manojnaidu619/Rails-API-Backend)
+
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
+* `ember serve --proxy http://localhost:3000`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
