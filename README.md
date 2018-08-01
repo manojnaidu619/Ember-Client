@@ -2,6 +2,16 @@
 
 This Ember app(frontend) is connected To [this Rails API(backend)](https://github.com/manojnaidu619/Rails-API-Backend)
 
+# Important Step
+
+Make Sure to install ``active-model-adapter`` by running ``ember install active-model-adapter``
+
+```javascript
+// in app/adapters/application.js
+
+import ActiveModelAdapter from 'active-model-adapter';
+export default ActiveModelAdapter.extend();
+```
 
 ## Prerequisites
 
