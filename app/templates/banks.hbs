@@ -1,4 +1,8 @@
 {{#each model as |bank|}}
  {{bank.name}}<br>
- {{bank.cash}}
+ {{bank.cash}}<br><br>
 {{/each}}
+<h2>Enter details to store in DB</h2>
+Enter Name: {{input value=name}}<br><br>
+Enter Amount{{input value=cash type='number'}}<br>
+<button type="button" name="button" {{action 'createRecord'}}>Create Record</button>
